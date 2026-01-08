@@ -39,9 +39,9 @@ const Header = () => {
           <img
             src={logo}
             alt="Adan logo"
-            className="inline-block h-8 w-8 rounded-full mr-2 object-cover align-middle"
+            className="inline-block h-14 w-14 rounded-full mr-2 object-cover align-middle"
           />
-          Adan<span className="text-foreground">.</span>
+          {/* Adan<span className="text-foreground">.</span> */}
         </a>
 
         {/* Desktop Navigation */}

@@ -1,4 +1,5 @@
 import { Heart } from "lucide-react";
+import logo from "../../assets/adan logo .jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,9 +10,14 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <a
             href="#home"
-            className="text-xl font-display font-bold text-primary"
+            className="text-2xl font-display font-bold text-primary tracking-wide"
           >
-            Adan<span className="text-foreground">.</span>
+            <img
+              src={logo}
+              alt="Adan logo"
+              className="inline-block h-14 w-14 rounded-full mr-2 object-cover align-middle"
+            />
+            {/* Adan<span className="text-foreground">.</span> */}
           </a>
 
           <p className="text-muted-foreground text-sm flex items-center gap-1">

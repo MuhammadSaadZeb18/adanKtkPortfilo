@@ -99,20 +99,24 @@ const About = () => {
             >
               I am a results-driven Shopee Ads Expert with hands-on experience
               managing and scaling Shopee Ads and TikTok Shop GMV Max campaigns
-              for the Malaysia market. I specialize in driving sustainable
-              growth through data-driven ad strategies, high-search-volume
-              keyword optimization, and continuous listing improvement.
+              for the Malaysia market. I help brands achieve sustainable growth
+              through data-driven advertising strategies, high-search-volume
+              keyword optimization, and continuous listing enhancement that
+              improves visibility and conversions.
             </motion.p>
 
             <motion.p
               variants={item}
               className="text-muted-foreground leading-relaxed mb-8"
             >
-              I enjoy working with analytics to maximize GMV, ROAS, and ROI
-              while minimizing wasted ad spend. I adapt quickly to platform
-              changes and align advertising strategies with real business goals.
-              With a Bachelor's degree in Software Engineering, I combine
-              technical expertise with marketing acumen.
+              Driven by analytics and performance insights, I focus on
+              maximizing GMV, ROAS, and ROI while actively reducing wasted ad
+              spend. I adapt quickly to platform updates and market shifts,
+              ensuring every campaign stays aligned with real business
+              objectives rather than vanity metrics. Backed by a Bachelor's
+              degree in Software Engineering, I bring a strong technical mindset
+              to performance marketing, blending precision, strategy, and
+              creativity to deliver measurable results.
             </motion.p>
 
             {/* -------- Highlight Stats -------- */}

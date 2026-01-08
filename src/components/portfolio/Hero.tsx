@@ -113,9 +113,25 @@ const Hero = () => {
               variants={item}
               className="flex items-center justify-center lg:justify-start gap-2 mb-6"
             >
-              <span className="w-8 h-0.5 bg-primary" />
-
               <p className="text-sm md:text-xl text-muted-foreground flex overflow-hidden">
+                <motion.span
+                // animate={{
+                //   x: [0, 8, 0],
+                //   opacity: [0.6, 1, 0.6],
+                // }}
+                // transition={{
+                //   duration: 2,
+                //   repeat: Infinity,
+                //   delay: 0.05,
+                //   ease: "easeInOut",
+                // }}
+                >
+                  Shopee Ads Expert | Tiktok Shop Spark Ads | Maximizing ROI
+                  using TikTok Shop GMV Max | Lazada | Social Media Business
+                  Manager
+                </motion.span>
+              </p>
+              {/* <p className="text-sm md:text-xl text-muted-foreground flex overflow-hidden">
                 {"Shopee Ads Expert & Software Engineer"
                   .split("")
                   .map((char, i) => (
@@ -136,7 +152,7 @@ const Hero = () => {
                       {char === " " ? "\u00A0" : char}
                     </motion.span>
                   ))}
-              </p>
+              </p> */}
             </motion.div>
 
             <motion.div
@@ -151,10 +167,13 @@ const Hero = () => {
               variants={item}
               className="text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-10 leading-relaxed"
             >
-              Results-driven Shopee Ads Expert with hands-on experience managing
-              and scaling Shopee Ads and TikTok Shop GMV Max campaigns.
-              Specializing in data-driven strategies that maximize GMV, ROAS,
-              and ROI.
+              Results-driven Shopee Ads Expert with extensive hands-on
+              experience in strategizing, managing, and scaling high-impact
+              Shopee Ads and TikTok Shop GMV Max campaigns. Leveraging advanced
+              data analytics and performance insights, I design and execute
+              growth-focused strategies that consistently optimize GMV, ROAS,
+              and ROI, enabling brands to achieve sustainable, scalable, and
+              profitable growth.
             </motion.p>
 
             <motion.div
