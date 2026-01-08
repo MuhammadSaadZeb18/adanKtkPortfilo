@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import logo from "../../assets/adan logo .jpg";
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
@@ -37,7 +37,7 @@ const Header = () => {
           className="text-2xl font-display font-bold text-primary tracking-wide"
         >
           <img
-            src="/adan-logo.jpeg"
+            src={logo}
             alt="Adan logo"
             className="inline-block h-8 w-8 rounded-full mr-2 object-cover align-middle"
           />
